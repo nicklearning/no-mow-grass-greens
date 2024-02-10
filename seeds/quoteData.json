@@ -1,0 +1,15 @@
+[
+    {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "1234567890",
+      "projectDetails": "Looking to install synthetic turf in our front yard."
+    },
+    {
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "9876543210",
+      "projectDetails": "Interested in a synthetic putting green for our backyard."
+    }
+  ]
+  

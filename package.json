@@ -1,0 +1,21 @@
+{
+  "name": "now-mow-grass-greens",
+  "version": "1.0.0",
+  "description": "Quote website for now mow grass and greens",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "seed": "node seeds/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "mysql2": "^3.9.1",
+    "sequelize": "^6.36.0"
+  }
+}

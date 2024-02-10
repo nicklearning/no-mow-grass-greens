@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS nmgg_db;
+
+CREATE DATABASE nmgg_db;
