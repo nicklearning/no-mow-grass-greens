@@ -67,9 +67,56 @@ nav a:hover {
 
 main {
     display: flex;
-    flex: 1 1 0;
-    max-width: 96%;
-    margin: 2% auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    /* Center-align the heading */
+    margin-bottom: 20px;
+    /* Add some bottom margin for spacing */
+}
+
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004080;
 }
 
 /*article {
@@ -97,7 +144,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    header {
+
+    header,
+    .brand {
         flex-direction: column;
     }
 
