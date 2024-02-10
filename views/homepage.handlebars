@@ -1,0 +1,10 @@
+<div class="gallery">
+    {{!-- Iterate over beforeAfterImages to display before and after images --}}
+    {{#each beforeAfterImages}}
+    <div class="image">
+        <img src="{{beforeImageUrl}}" alt="Before Image">
+        <img src="{{afterImageUrl}}" alt="After Image">
+        <p>{{description}}</p>
+    </div>
+    {{/each}}
+</div>

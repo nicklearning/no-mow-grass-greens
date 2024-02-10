@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 // Configure Handlebars engine
 const hbs = exphbs.create({
     defaultLayout: 'main',
-    extname: '.hbs',
+    extname: '.handlebars',
     layoutsDir: path.join(__dirname, 'views/layouts'),
     partialsDir: path.join(__dirname, 'views/partials'),
     helpers: {
