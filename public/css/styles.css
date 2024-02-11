@@ -119,22 +119,19 @@ button:active {
     background-color: #004080;
 }
 
-/*article {
-     If we were to change the value of `--turfgreen`, then all references to it would change automatically 
-    border-bottom: 1px solid var(--turfgreen);
-  }
-  
-  article p {
-    margin: 2% 0;
-    font-size: 110%;
-  }
-  
-  article ul {
-    margin-left: 5%;
-    font-size: 110%;
-    list-style: circle;
-  }
-  */
+.success-message {
+    font-family: 'Capriola', sans-serif;
+
+    text-align: center;
+}
+
+.success-message img {
+    max-width: 40px;
+    border-radius: 10%;
+
+}
+
+
 footer {
     display: flex;
     justify-content: center;

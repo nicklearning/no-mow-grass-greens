@@ -1,3 +1,5 @@
+const { log } = require("console");
+
 document.addEventListener('DOMContentLoaded', function () {
     // Get a reference to the form
     const quoteForm = document.querySelector('form');
@@ -26,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => {
                 if (response.ok) {
                     // Handle successful response
-                    console.log('Form submitted successfully');
+                    console.log(`Quote successfully submitted.`);
                     // Optionally, you can redirect the user to another page
                     // window.location.href = '/thank-you'; // Redirect to thank-you page
                 } else {
