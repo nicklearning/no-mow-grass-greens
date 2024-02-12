@@ -35,7 +35,9 @@ h1 {
     margin-right: 20px;
 }
 
+
 nav ul {
+    display: flex;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -52,6 +54,8 @@ nav ul li:first-child {
     margin-left: 0;
     /* Remove left margin for the first list item */
 }
+
+
 
 
 nav a {
@@ -138,6 +142,7 @@ button:active {
     /* Set desired height */
     object-fit: cover;
     /* Ensure images maintain aspect ratio and cover entire container */
+    border-radius: 10%;
 }
 
 
@@ -164,8 +169,35 @@ footer {
 @media screen and (max-width: 768px) {
 
     header,
-    .brand {
+    .brand,
+    nav ul {
         flex-direction: column;
+
+    }
+
+    .brand {
+        margin-bottom: .5rem;
+    }
+
+    nav ul {
+        justify-content: center;
+        /* Center the list items horizontally */
+        flex-direction: column;
+        /* Change flex direction to column */
+        align-items: center;
+        /* Center items vertically */
+    }
+
+    nav ul li {
+        margin-left: 0;
+        /* Reset left margin for list items */
+        margin-bottom: .5rem;
+        /* Add margin between list items in vertical layout */
+    }
+
+    h1 {
+        font-size: x-large;
+        margin-right: 0;
     }
 
     main {
