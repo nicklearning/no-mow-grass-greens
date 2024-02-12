@@ -1,17 +1,13 @@
 // seeders/seed.js
 const sequelize = require('../config/connection');
-const { BeforeAfter, Testimonial, Quote } = require('../models');
+const { Quote } = require('../models');
 
-const beforeAfterData = require('./beforeAfterData.json');
-const testimonialData = require('./testimonialData.json');
 const quoteData = require('./quoteData.json');
 
 const seedDatabase = async () => {
     try {
         await sequelize.sync({ force: true });
 
-        await BeforeAfter.bulkCreate(beforeAfterData);
-        await Testimonial.bulkCreate(testimonialData);
         await Quote.bulkCreate(quoteData);
 
         console.log('Database seeded successfully!');

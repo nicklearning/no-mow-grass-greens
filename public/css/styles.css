@@ -138,6 +138,7 @@ footer {
     padding: 2%;
     background-color: var(--turfgreen);
     color: var(--goldenyellow);
+    font-family: 'Capriola', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
