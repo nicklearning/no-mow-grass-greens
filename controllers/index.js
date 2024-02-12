@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const homePageRoutes = require('./galleryController')
+const homePageRoutes = require('./homepageController')
 const quoteRoutes = require('./quoteController')
 
 router.use('/', homePageRoutes);
